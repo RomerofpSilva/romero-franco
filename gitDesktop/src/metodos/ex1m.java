@@ -6,29 +6,31 @@ public class ex1m {
 
 	public static void main(String[] args) {
 
-		imprimirNome();
 		
 		Scanner input = new Scanner(System.in);
 		
-		System.out.println("Digite um número de um a quatro sendo 1=verão, 2=inverno...");
+		
+		
+		System.out.println("Digite um número de um a quatro ");
 		int dig = input.nextInt();
 		
 		switch (dig) {
 		case 1: {
-			System.out.println("É verão e o tempo esta quente. ");
+			imprimirVerao();
 			 break;
 		}case 2:{
-			System.out.println("É Inverno e esta frio. ");
+			inverno();
 	        break;
 		}case 3:{ 
-			System.out.println("É outono e o clima esta ameno. ");
+			outono();
 	        break;
 		}case 4:{
-			System.out.println("É primavera e esta fresco. ");
+			primavera();
 	        break;
 		}
 		
 		default:System.out.println("Número invalido. ");
+		
 			throw new IllegalArgumentException("Unexpected value: " + dig);
 		}
 		
@@ -36,6 +38,17 @@ public class ex1m {
 	public static void imprimirNome() {
 		System.out.println("");
 		System.out.println("");
+	public static void imprimirVerao() {
+		System.out.println("É verão e o tempo esta quente. ");
+	}
+	public static void inverno() {
+		System.out.println("É Inverno e esta frio. ");
+	}
+	public static void outono() {
+		System.out.println("É outono e o clima esta ameno. ");
+	}
+	public static void primavera() {
+		System.out.println("É primavera e esta fresco. ");
 	}
 
 }
