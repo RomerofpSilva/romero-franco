@@ -35,9 +35,6 @@ public class ex1m {
 		}
 		
 	}
-	public static void imprimirNome() {
-		System.out.println("");
-		System.out.println("");
 	public static void imprimirVerao() {
 		System.out.println("É verão e o tempo esta quente. ");
 	}
