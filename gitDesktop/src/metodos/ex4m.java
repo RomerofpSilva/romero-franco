@@ -48,7 +48,6 @@ int menorv = Integer.MAX_VALUE;
 		System.out.println(media);
 		
 		}
-	
 }
 
 	
