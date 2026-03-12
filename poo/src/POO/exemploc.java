@@ -1,6 +1,6 @@
 package POO;
 
-public class Veiculo {
+public class exemploc {
 
 	String modelo;
 	double comprimento;

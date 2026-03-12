@@ -1,10 +1,10 @@
 package POO;
 
-public class ex1POO {
+public class exemplo {
 
 	public static void main(String[] args) {
 	
-		Veiculo v1 = new Veiculo();
+		exemploc v1 = new exemploc();
 		
 		v1.modelo = "Honda City";
 		v1.comprimento = 4.2;
@@ -12,7 +12,7 @@ public class ex1POO {
 		v1.velMax = 190;
 		v1.cor = "Vermelho";
 		
-		Veiculo v2 = new Veiculo();
+		exemploc v2 = new exemploc();
 		
 		v2.modelo = "Monark";
 		v2.comprimento = 1.70;
