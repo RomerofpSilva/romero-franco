@@ -38,4 +38,10 @@ public class MercadoApplication {
 	
 	}
 
+	public void calculo() {
+		
+		
+		
+	}
+	
 }
