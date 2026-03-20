@@ -7,5 +7,18 @@ public class Mercado {
 	double precom;
 	int laranja;
 	double precol;
+
+	public double ObterPrecoMacas() {
+		return precom *  maca;
+	}
+	
+	public double ObterPrecolaranja() {
+		return precol *  laranja;
+	}
+	
+	public double ObterReceitaTotal() {
+		return ObterPrecoMacas() + ObterPrecolaranja();
+	}	
+	
 	
 }

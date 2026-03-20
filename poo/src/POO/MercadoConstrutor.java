@@ -1,6 +1,6 @@
 package POO;
 
-public class MercadoApplication {
+public class MercadoConstrutor {
 
 	public static void main(String[] args) {
 		
@@ -12,8 +12,6 @@ public class MercadoApplication {
 		unidadeBlumenau.laranja = 5000;
 		unidadeBlumenau.precol = 10000;
 		
-		System.out.println(unidadeBlumenau.nomeMercado + " Vendeu " + unidadeBlumenau.maca + " e seu preço é " + unidadeBlumenau.precom + " e tambem vendeu " + unidadeBlumenau.laranja + " ao preço de " + unidadeBlumenau.precom);
-		
 		Mercado unidadeJoinville = new Mercado();
 		
 		unidadeJoinville.nomeMercado = "Cooper";
@@ -21,9 +19,6 @@ public class MercadoApplication {
 		unidadeJoinville.precom = 5000;
 		unidadeJoinville.laranja = 6000;
 		unidadeJoinville.precol = 10000;
-		
-		System.out.println(unidadeJoinville.nomeMercado + " Vendeu " + unidadeJoinville.maca + " e seu preço é " + unidadeJoinville.precom + " e tambem vendeu " + unidadeJoinville.laranja + " ao preço de " + unidadeJoinville.precom);
-
 	
 		Mercado unidadeDeFlorianopolis = new Mercado();
 		
@@ -33,9 +28,6 @@ public class MercadoApplication {
 		unidadeDeFlorianopolis.laranja = 5000;
 		unidadeDeFlorianopolis.precol = 10000;
 		
-		System.out.println(unidadeDeFlorianopolis.nomeMercado + " Vendeu " + unidadeDeFlorianopolis.maca + " e seu preço é " + unidadeDeFlorianopolis.precom + " e tambem vendeu " + unidadeDeFlorianopolis.laranja + " ao preço de " + unidadeDeFlorianopolis.precom);
-
-		
 		Mercado listaMercados[] = {unidadeBlumenau, unidadeDeFlorianopolis, unidadeJoinville};
 		
 		double maiorPrecoMacas = 0;
@@ -44,7 +36,7 @@ public class MercadoApplication {
 		for (int i = 0; i < listaMercados.length; i++) {
 			if (listaMercados[i].ObterPrecoMacas() > maiorPrecoMacas) {
 				maiorPrecoMacas = listaMercados[i].ObterPrecoMacas();
-				mercadoMaiorReceitaMacas = listaMercados[i];
+				mercadoMaiorReceitaMacas = listaMercados;
 			}
 		}
 		
@@ -54,7 +46,7 @@ public class MercadoApplication {
 		for (int i = 0; i < listaMercados.length; i++) {
 			if (listaMercados[i].ObterPrecoMacas() > menorPrecoLaranja) {
 				menorPrecoLaranja = listaMercados[i].ObterPrecoMacas();
-				mercadoMenorReceitaMacas = listaMercados[i];
+				mercadoMenorReceitaMacas = listaMercados;
 			}
 		}
 	
