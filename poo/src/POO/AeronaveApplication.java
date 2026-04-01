@@ -8,6 +8,8 @@ public class AeronaveApplication {
 		Aeronave aeronave2 = new Aeronave("2", 200, 1500, 200000, 47);
 		Aeronave aeronave3 = new Aeronave("3", 300, 1000, 250000, 78);
 		Aeronave aeronave4 = new Aeronave("4", 150, 1300, 210000, 53);
+		
+		aeronave1 = 
 
 		Aeronave ListaAeronave[] = { aeronave1, aeronave2, aeronave3, aeronave4 };
 
