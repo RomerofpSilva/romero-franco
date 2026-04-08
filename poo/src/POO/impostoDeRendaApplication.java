@@ -4,11 +4,11 @@ public class impostoDeRendaApplication {
 
 	public static void main(String[] args) {
 
-		ImpostoDeRenda pessoa1 = new ImpostoDeRenda("Pedro", "12345678910", "SC", 4000);
+		ImpostoDeRenda pessoa1 = new ImpostoDeRenda("Pedro", "12345678910", "SC", 44000);
 		ImpostoDeRenda pessoa2 = new ImpostoDeRenda("Eduardo", "01987654321", "SC", 8000);
 		ImpostoDeRenda pessoa3 = new ImpostoDeRenda("kauan", "20210600001", "SC", 16000);
 		ImpostoDeRenda pessoa4 = new ImpostoDeRenda("Rony", "20240200002", "SC", 32000);
-		ImpostoDeRenda pessoa5 = new ImpostoDeRenda("Yuri", "77777777747", "SC", 64000);
+		ImpostoDeRenda pessoa5 = new ImpostoDeRenda("Yuri", "77777777747", "SC", 24000);
 
 		ImpostoDeRenda listaPessoa[] = { pessoa1, pessoa2, pessoa3, pessoa4, pessoa5 };
 
