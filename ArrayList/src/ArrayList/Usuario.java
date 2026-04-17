@@ -16,7 +16,7 @@ public class Usuario {
 		listaNumeros.add(3);
 		listaNumeros.add(4);
 		listaNumeros.add(5);
-				
+		
 		Scanner input = new Scanner(System.in);
 		
 		System.out.println("Insira o valor que voce quer saber o indice");
